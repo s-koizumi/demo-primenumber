@@ -11,5 +11,6 @@ public class PrimeTest {
         assertTrue(classUnderTest.isPrime(2));
         assertTrue(classUnderTest.isPrime(3));
         assertTrue(classUnderTest.isPrime(5));
+        assertFalse(classUnderTest.isPrime(9));
     }
 }
